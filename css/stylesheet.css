@@ -1,6 +1,5 @@
 body {
     background-image: url("../img/babymeme.jpg");
-    background-size: cover;
     background-repeat: repeat;
     background-position: center; 
     background-attachment: fixed;
@@ -10,5 +9,11 @@ h1 {
     color:indianred; 
     background-color:darkmagenta;
     width: 20%;
+}
+
+p {
+    color: greenyellow; 
+    background-color:blue;
+    width: 50%;
 }
 

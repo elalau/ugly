@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/babymeme.jpg");
+    background-image: url("../img/uglywallpaper.jpg");
     background-repeat: repeat;
     background-position: center; 
     background-attachment: fixed;
@@ -9,11 +9,21 @@ h1 {
     color:indianred; 
     background-color:darkmagenta;
     width: 20%;
+    margin:auto; 
 }
 
 p {
     color: greenyellow; 
-    background-color:blue;
-    width: 50%;
+    background-image: url("../img/coolcheetah.jpg");
+    width: 40%;
+    padding: 10%;
 }
 
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
